@@ -14,6 +14,7 @@ assign t[0] = cin;
 assign cout = t[N];
 
 genvar i;
+
 generate
     for(i=0; i<N; i=i+1) begin:stage
     fullAdder fa 
