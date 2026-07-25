@@ -7,7 +7,7 @@ wire [3:0] sum;
 reg [4:0]tem;
 integer i;
 
-cla c1
+cla dut
 (
 .a(a),
 .b(b),

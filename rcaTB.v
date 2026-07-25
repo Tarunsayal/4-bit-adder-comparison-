@@ -9,7 +9,7 @@ localparam N = 4;
 integer i;
 reg [N:0]tem;
 
-rca #(.N(4)) r1
+rca #(.N(4)) dut
 (
  .a(a),
  .b(b),
