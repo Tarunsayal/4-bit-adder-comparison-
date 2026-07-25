@@ -1,5 +1,5 @@
 `default_nettype none
-module csa
+module csla
 (
  input wire [3:0] a,
  input wire [3:0] b,

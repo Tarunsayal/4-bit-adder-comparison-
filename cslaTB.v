@@ -1,4 +1,4 @@
-module csaTB;
+module cslaTB;
 
 reg [3:0]a;
 reg [3:0]b;
@@ -8,7 +8,7 @@ wire [3:0] sum;
 reg [4:0]tem;
 integer i;
 
-csa dut
+csla dut
 (
     .a(a),
     .b(b),
@@ -23,7 +23,7 @@ initial begin
         b=i[8:5];
         #10
         tem = a+b+cin;
-        if(tem!=={cout , sum})begin
+        if(tem!=={cout,sum})begin
         $display("sum is incorrect for a=%b b=%b cin=%b | sum=%b | tem=%b",a,b,cin,sum,tem);
         end
 
